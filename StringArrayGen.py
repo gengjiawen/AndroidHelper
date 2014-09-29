@@ -1,4 +1,4 @@
 
-s = ["拍照", "相册", "取消"]
+s = ["Camera", "Gallery", "Cancel"]
 for i in s:
     print("<item>" + i + "</item>")
