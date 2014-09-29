@@ -3,8 +3,10 @@ __author__ = 'gengjiawen'
 
 # f = open('widgets.txt', 'w')
 
-wl = ["voteDownImageView", "voteUpImageView"]
-# wl = ["otherNameTextView", "otherTalkTextView"]
+wl = open("widgets.txt").read().splitlines()
+# with open("widgets.txt") as f:
+#     wl = f.readlines()
+
 declaration = []
 inilization = []
 fragment = []
