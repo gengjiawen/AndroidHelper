@@ -35,3 +35,8 @@ for i in fragment:
 print("\nadater: ")
 for i in adapter:
     print(i)
+
+print("\nall")
+for i in range(len(declaration)):
+    print(declaration[i])
+    print(inilization[i])
