@@ -1,11 +1,7 @@
 import re
 __author__ = 'gengjiawen'
 
-# f = open('widgets.txt', 'w')
-
 wl = open("widgets.txt").read().splitlines()
-# with open("widgets.txt") as f:
-#     wl = f.readlines()
 
 declaration = []
 inilization = []
