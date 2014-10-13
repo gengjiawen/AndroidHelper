@@ -7,6 +7,7 @@ declaration = []
 inilization = []
 fragment = []
 adapter = []
+viewholder = []
 all = []
 
 for w in wl:
@@ -16,6 +17,7 @@ for w in wl:
     inilization.append("{0} = ({1}) findViewById(R.id.{0});".format(w, type))
     fragment.append("{0} = ({1}) view.findViewById(R.id.{0});".format(w, type))
     adapter.append("{1} {0} = ({1}) convertView.findViewById(R.id.{0});".format(w, type))
+    viewholder.append("holder.{0} = ({1}) convertView.findViewById(R.id.{0});".format(w, type))
     all.append("{1} {0} = ({1}) findViewById(R.id.{0});".format(w, type))
 
 print("\ndeclaration:")
@@ -32,6 +34,10 @@ for i in fragment:
 
 print("\nadater: ")
 for i in adapter:
+    print(i)
+
+print("\nview holder: ")
+for i in viewholder:
     print(i)
 
 print("\nall")
