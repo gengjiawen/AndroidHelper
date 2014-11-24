@@ -5,7 +5,7 @@ write = []
 read = []
 
 for w in wl:
-    if w.strip() is '':
+    if w.strip() == '':
         continue
     wl = w.strip().split()
     wl[1] = wl[1].replace(';', '')

@@ -1,5 +1,4 @@
 import re
-__author__ = 'gengjiawen'
 
 wl = open("widgets.txt").read().splitlines()
 
@@ -11,7 +10,7 @@ viewholder = []
 all = []
 
 for w in wl:
-    pos = re.search("Button|TextView|Linear|Relative|ImageView|listView|EditText", w).start()
+    pos = re.search("Button|TextView|Linear|Relative|ImageView|listView|EditText|GridView", w).start()
     type = w[pos:]
     declaration.append("private {0} {1};".format(type, w))
     inilization.append("{0} = ({1}) findViewById(R.id.{0});".format(w, type))
