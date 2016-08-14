@@ -1,1 +1,0 @@
-This is an android code generator, you can use it generate some boilerplate

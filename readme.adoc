@@ -1,0 +1,17 @@
+= Android Helper
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 2
+:source-highlighter: hightlightjs
+
+This is an android code helper.
+
+I have written some functions in my private repo at bitbucket, wait to opensource in github.
+
+== Todo
+* Style gen
+* Gradle Util
+* Proguard Util
