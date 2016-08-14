@@ -1,5 +1,6 @@
 import re
 
+# this is really silly, use butterknife when possible
 wl = open("widgets.txt").read().splitlines()
 
 declaration = []
