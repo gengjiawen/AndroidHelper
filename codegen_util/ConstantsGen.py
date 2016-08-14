@@ -1,8 +1,9 @@
+consts = """
+male
+"""
 
-s = ["pa_fun_activity_model"]
-result = []
-for i in s:
-    result.append("private static final String {0} = \"{1}\";".format(i.upper(), i))
+for i in consts.strip().splitlines():
+    c = 'private static final String {0} = "{1}";'.format(i.upper(), i)
+    print(c)
 
-for i in result:
-    print(i)
+
