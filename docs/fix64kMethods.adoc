@@ -1,3 +1,4 @@
+= Fix 64k methods problem in android
 Geng Jiawen
 techinicalcute@Gmail.com
 :toc:
@@ -38,3 +39,6 @@ dexOptions {
         javaMaxHeapSize "4g"
     }
 }
+
+== Read more
+Official doc: https://developer.android.com/studio/build/multidex.html
