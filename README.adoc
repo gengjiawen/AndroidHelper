@@ -9,7 +9,11 @@ techinicalcute@Gmail.com
 
 This is an android code helper.
 
-I have written some functions in my private repo at bitbucket, wait to opensource in github.
+== Purpose
+I have written some scripts in my private repo at bitbucket.
+It greatly help me make some task not so cumbersome and tiresome.
+Now I am gradually opensourcing in github.
+Hope this may help you too :)
 
 == Todo
 * Style gen
