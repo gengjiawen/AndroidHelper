@@ -1,0 +1,13 @@
+= Usage
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:source-highlighter: hightlightjs
+
+
+== unify_build_dependency.py
+Inspired by http://saulmm.github.io/squeezing-gradle-builds.
+This script help you unify your dependencies in one place
+
