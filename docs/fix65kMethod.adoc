@@ -1,0 +1,40 @@
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 2
+:source-highlighter: hightlightjs
+
+== add dependency
+[source]
+----
+compile 'com.android.support:multidex:1.0.1'
+----
+
+== Add to Application
+
+[source,java]
+----
+import android.support.multidex.MultiDex;
+
+@Override
+protected void attachBaseContext(Context base) {
+    super.attachBaseContext(base);
+    MultiDex.install(this);
+}
+----
+
+== Edit Build.gradle
+
+In defaultConfig
+[source, groovy]
+multiDexEnabled true
+
+And in Android, this will fix java heap memory problem when building.
+[source, groovy]
+dexOptions {
+    if (System.getProperty("os.arch") == "amd64") {
+        javaMaxHeapSize "4g"
+    }
+}
