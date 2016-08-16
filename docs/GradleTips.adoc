@@ -1,0 +1,15 @@
+= Gradle Tips
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:source-highlighter: hightlightjs
+
+== gradle wrapper task
+Update Grade wrapper task
+[source, groovy]
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.0'
+    distributionUrl = distributionUrl.replace("bin", "all")
+}
