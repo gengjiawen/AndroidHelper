@@ -11,3 +11,11 @@ techinicalcute@Gmail.com
 Inspired by http://saulmm.github.io/squeezing-gradle-builds.
 This script help you unify your dependencies in one place
 
+== package_exclude.py
+Exclude duplicate resources in **META-INF**.
+If you run into package problem, this script can automatically find the duplicate resources.
+
+
+== Todo
+* Perhaps package_exclude.py can write a gradle plugin,but for now, I have no
+no idea of writing one.
