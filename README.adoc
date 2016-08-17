@@ -15,7 +15,16 @@ It greatly help me make some task not so cumbersome and tiresome.
 Now I am gradually opensourcing in github.
 Hope this may help you too :)
 
+== Module
+,===
+Location, Usage
+
+codegen_util, generate boilerplate
+gradle_util, build system util
+proguard_util, as the system suggest
+,===
+
 == Todo
 * Style gen
-* Gradle Util
+* May be png compress or sub git module
 * Doc
