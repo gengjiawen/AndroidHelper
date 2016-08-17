@@ -19,6 +19,9 @@ This script help you unify your android build tool in same version.
 Exclude duplicate resources in **META-INF**.
 If you run into package problem, this script can automatically find the duplicate resources.
 
+== format_settings_gradle.py
+As the name suggest, format your settings.gradle file.
+Please note this will not backup your original file, use it with care.
 
 == Todo
 * Perhaps package_exclude.py can write a gradle plugin.
