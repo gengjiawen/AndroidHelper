@@ -9,7 +9,11 @@ techinicalcute@Gmail.com
 
 == unify_build_dependency.py
 Inspired by http://saulmm.github.io/squeezing-gradle-builds.
-This script help you unify your dependencies in one place
+This script help you unify your dependencies in one place.
+
+== unify_android_build_config.py
+Inspired by http://saulmm.github.io/squeezing-gradle-builds too.
+This script help you unify your android build tool in same version.
 
 == package_exclude.py
 Exclude duplicate resources in **META-INF**.
@@ -17,5 +21,5 @@ If you run into package problem, this script can automatically find the duplicat
 
 
 == Todo
-* Perhaps package_exclude.py can write a gradle plugin,but for now, I have no
-no idea of writing one.
+* Perhaps package_exclude.py can write a gradle plugin.
+But for now, I have no no idea of writing one.
