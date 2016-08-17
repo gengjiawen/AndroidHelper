@@ -1,0 +1,29 @@
+= Gradle Tips
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:source-highlighter: hightlightjs
+
+== gradle wrapper task
+Update Grade wrapper task
+[source, groovy]
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.0'
+    distributionUrl = distributionUrl.replace("bin", "all")
+}
+
+== How to accelerate your build
+* Use gradle parallel feature, this can greatly speed your build by 45% from my experience.
+* Use gradle daemon
+
+=== how to enable
+This is the first method
+Edit your gradle.properties
+[source, groovy]
+org.gradle.daemon=true
+org.gradle.parallel=true
+
+Or you can just update your gradle version to 3.0.
+Because gradle 3.0 enable parallel and daemon by default.
