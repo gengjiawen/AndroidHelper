@@ -16,14 +16,17 @@ Now I am gradually opensourcing in github.
 Hope this may help you too :)
 
 == Module Usage
+=== This repo
 ,===
 Location, Usage
 
 codegen_util, generate boilerplate
 gradle_util, build system util
-proguard_util, as the system suggest
+proguard_util, as the name suggest
+aar_util, handle aar file with confidence
 ,===
 
+=== Migrate Eclipse project to Gradle-Based project for Android Studio
 If you want to change to eclipse project to gradle-based android studio project.
 Please check https://github.com/gengjiawen/migratetogradle.
 
