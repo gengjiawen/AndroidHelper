@@ -21,7 +21,7 @@ def get_aar_files(proj_dir, des_dir):
 def using_local_aar(aar_dir):
     # http://stackoverflow.com/a/24894387/1713757
     # or you can just do it in android studio ui
-    s = "configurations.create(\"default\")\n"
+    s = 'configurations.maybeCreate("default")'
     for i in os.listdir(aar_dir):
         if i.endswith("aar"):
             print("aar:", i)
