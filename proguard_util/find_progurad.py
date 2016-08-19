@@ -2,6 +2,11 @@ import re
 
 
 def find_proguard_rules(proguard_file):
+    """
+    :param proguard_file: progurad waring file.For linux,you can use somthing like
+    "./gradlew aR 2>&1 | tee -a build_log.txt"
+    :return:
+    """
     s = open(proguard_file, mode='r', encoding='utf-8').read()
     # all_class = re.findall("Warning:.*referenced class (.*)", s)
     # all_field = re.findall("Warning:.* in program class (.*)", s)
