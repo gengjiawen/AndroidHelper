@@ -1,0 +1,15 @@
+= MVP Gen
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 2
+:source-highlighter: hightlightjs
+
+This is an android code helper.
+
+== Purpose
+Generate Mvp Template file with easy.
+
+Mainly inspired https://github.com/riggaroo/android-studio-group-templates-mvp
