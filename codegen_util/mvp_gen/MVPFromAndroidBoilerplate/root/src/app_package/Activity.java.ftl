@@ -15,4 +15,10 @@ public class ${className}Activity extends BaseActivity implements ${className}Mv
         setContentView(R.layout.your_layout);
         presenter.attachView(this);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        presenter.detachView();
+    }
 }

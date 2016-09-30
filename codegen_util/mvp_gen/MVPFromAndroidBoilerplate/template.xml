@@ -3,7 +3,7 @@
 		name="MVP Template Activity"
 		description="Creates a new MVP classes - Activity, Presenter, View">
 
-	<category value="Design Function"/>
+	<category value="Design Pattern"/>
 
 	<parameter id="className"
 		name="Functionality Name"
