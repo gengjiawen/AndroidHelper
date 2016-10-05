@@ -1,0 +1,23 @@
+= Android Helper
+Geng Jiawen
+techinicalcute@Gmail.com
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 2
+:source-highlighter: hightlightjs
+
+This is an timber live templates generator.
+
+== Purpose
+Live templates for https://github.com/JakeWharton/timber[Timber]
+
+Using gen_log.py to generate the Timber.xml or directly using the one I put here.
+
+== Links
+Android Studio live templates
+https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7#.97ywnp8lz
+Where to put this file
+https://www.jetbrains.com/help/idea/2016.2/sharing-live-templates.html
+
+
