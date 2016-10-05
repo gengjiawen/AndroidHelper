@@ -1,0 +1,62 @@
+<templateSet group="Timer">
+  <template name="tv" value="timber.log.Timber.v(&quot;$END$&quot;);" description="Timer.v(message)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true"/>
+    </context>
+</template>
+  <template name="tvv" value="timber.log.Timber.v(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="Prints a value to Timer.v(message)" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true"/>
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false"/>
+    <context>
+      <option name="JAVA_CODE" value="false"/>
+      <option name="JAVA_STATEMENT" value="true"/>
+      <option name="GROOVY" value="false"/>
+      <option name="GROOVY_STATEMENT" value="false"/>
+    </context>
+  </template>
+  <template name="td" value="timber.log.Timber.d(&quot;$END$&quot;);" description="Timer.d(message)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true"/>
+    </context>
+</template>
+  <template name="tdv" value="timber.log.Timber.d(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="Prints a value to Timer.d(message)" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true"/>
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false"/>
+    <context>
+      <option name="JAVA_CODE" value="false"/>
+      <option name="JAVA_STATEMENT" value="true"/>
+      <option name="GROOVY" value="false"/>
+      <option name="GROOVY_STATEMENT" value="false"/>
+    </context>
+  </template>
+  <template name="ti" value="timber.log.Timber.i(&quot;$END$&quot;);" description="Timer.i(message)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true"/>
+    </context>
+</template>
+  <template name="tiv" value="timber.log.Timber.i(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="Prints a value to Timer.i(message)" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true"/>
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false"/>
+    <context>
+      <option name="JAVA_CODE" value="false"/>
+      <option name="JAVA_STATEMENT" value="true"/>
+      <option name="GROOVY" value="false"/>
+      <option name="GROOVY_STATEMENT" value="false"/>
+    </context>
+  </template>
+  <template name="te" value="timber.log.Timber.e(&quot;$END$&quot;);" description="Timer.e(message)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true"/>
+    </context>
+</template>
+  <template name="tev" value="timber.log.Timber.e(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="Prints a value to Timer.e(message)" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true"/>
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false"/>
+    <context>
+      <option name="JAVA_CODE" value="false"/>
+      <option name="JAVA_STATEMENT" value="true"/>
+      <option name="GROOVY" value="false"/>
+      <option name="GROOVY_STATEMENT" value="false"/>
+    </context>
+  </template>
+</templateSet>
