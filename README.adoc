@@ -20,7 +20,7 @@ Hope this may help you too :)
 ,===
 Location, Usage
 
-codegen_util, generate boilerplate
+codegen_util, generate util to improve your productivity
 gradle_util, build system util
 proguard_util, as the name suggest
 aar_util, handle aar file with confidence
