@@ -4,7 +4,11 @@ import com.shundaojia.ui.base.BasePresenter;
 
 import javax.inject.Inject;
 
+import io.reactivex.disposables.CompositeDisposable;
+
 public class ${className}Presenter extends BasePresenter<${className}MvpView> {
+
+    private CompositeDisposable mCompositeDisposable = new CompositeDisposable();
 
     @Inject
     public ${className}Presenter() {
@@ -18,5 +22,6 @@ public class ${className}Presenter extends BasePresenter<${className}MvpView> {
     @Override
     public void detachView() {
         super.detachView();
+        mCompositeDisposable.clear();
     }
 }
