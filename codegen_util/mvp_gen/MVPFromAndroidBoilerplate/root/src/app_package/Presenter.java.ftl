@@ -1,6 +1,6 @@
 package ${packageName};
 
-import com.shundaojia.ui.base.BasePresenter;
+import com.shundaojia.travel.ui.base.BasePresenter;
 
 import javax.inject.Inject;
 

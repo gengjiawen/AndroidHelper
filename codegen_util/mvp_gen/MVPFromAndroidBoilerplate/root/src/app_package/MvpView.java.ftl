@@ -1,6 +1,6 @@
 package ${packageName};
 
-import com.shundaojia.ui.base.MvpView;
+import com.shundaojia.travel.ui.base.MvpView;
 
 public interface ${className}MvpView extends MvpView {
 	

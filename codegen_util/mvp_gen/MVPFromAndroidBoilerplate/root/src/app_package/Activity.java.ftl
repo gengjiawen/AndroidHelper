@@ -1,12 +1,15 @@
 package ${packageName};
 
-import com.shundaojia.ui.base.BaseActivity;
+import android.os.Bundle;
+
+import com.shundaojia.travel.R;
+import com.shundaojia.travel.ui.base.BaseActivity;
 
 import javax.inject.Inject;
 
 public class ${className}Activity extends BaseActivity implements ${className}MvpView {
     @Inject
-    ${className}MainPresenter presenter;
+    ${className}Presenter presenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
