@@ -15,7 +15,7 @@ public class ${className}Activity extends BaseActivity implements ${className}Mv
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityComponent().inject(this);
-        setContentView(R.layout.your_layout);
+        setContentView(R.layout.activity_${className?lower_case});
         presenter.attachView(this);
     }
 
