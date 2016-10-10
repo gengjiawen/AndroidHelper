@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="Custom RecyclerView Adapter"
+    description="Creates the skeleton of a RecyclerView adapter" >
+
+    <category value="RecyclerView" />
+
+	 <parameter
+        id="adapterClass"
+        name="Adapter Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MyAdapter"
+        help="The name of the Adapter class to create" />
+	
+	<parameter
+        id="itemClass"
+        name="Model name"
+        type="string"
+        constraints="class|nonempty"
+        default="Model"
+        help="The name of the Model class to create" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>templates_adapter.png</thumb>
+    </thumbs>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
