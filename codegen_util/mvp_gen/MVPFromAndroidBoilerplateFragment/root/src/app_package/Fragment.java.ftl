@@ -23,7 +23,7 @@ public class ${className}Fragment extends BaseFragment implements ${className}Mv
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_${className?lower_case}, container, false);
         fragmentComponent().inject(this);
-        ButterKnife.bind(view);
+        ButterKnife.bind(this, view);
 
         presenter.attachView(this);
 
