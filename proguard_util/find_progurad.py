@@ -11,7 +11,7 @@ def find_proguard_rules(proguard_file):
     # all_class = re.findall("Warning:.*referenced class (.*)", s)
     # all_field = re.findall("Warning:.* in program class (.*)", s)
     # all_type = all_class + all_field
-    tmp_all = re.findall("Warning:.*( in program|referenced|depends on program|in library) class (.*)", s)
+    tmp_all = re.findall("Warning:.*( in program|referenced|depends on program|in library|implements program) class (.*)", s)
     all_type = {i[1] for i in tmp_all}
     proguard_issue = sorted(all_type)
     refined_issue = set()
